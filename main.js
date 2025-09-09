@@ -8,6 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
       navToggle.setAttribute('aria-expanded', String(!expanded));
       navMenu.classList.toggle('active');
     });
+    navMenu.querySelectorAll('a').forEach(link =>
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        navToggle.setAttribute('aria-expanded', 'false');
+      })
+    );
   }
 
   // slider testimonios
