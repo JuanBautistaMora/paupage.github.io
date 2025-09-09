@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudio Contable Patagónico | Asesoramiento Integral</title>
+  <meta name="description" content="Servicios contables profesionales para pymes y emprendedores en Argentina. Impuestos, sueldos y más.">
+  <meta property="og:title" content="Estudio Contable Patagónico">
+  <meta property="og:description" content="Servicios contables profesionales para pymes y emprendedores en Argentina.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com">
+  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Estudio+Contable">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Estudio Contable Patagónico">
+  <meta name="twitter:description" content="Servicios contables profesionales para pymes y emprendedores en Argentina.">
+  <meta name="twitter:image" content="https://via.placeholder.com/1200x630.png?text=Estudio+Contable">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="inicio">
+    <nav class="nav" aria-label="Principal">
+      <div class="logo">Estudio<span>Patagónico</span></div>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Confianza contable para tu negocio</h1>
+      <p>Asesoramiento integral, claro y cercano para que te enfoques en crecer.</p>
+    </div>
+  </header>
+  <main>
+    <section id="servicios" class="section services">
+      <h2>Servicios</h2>
+      <div class="service-list">
+        <article class="service">
+          <img src="https://via.placeholder.com/400x250?text=Impuestos" alt="Gestión de impuestos" loading="lazy">
+          <h3>Impuestos</h3>
+          <p>Planificación y cumplimiento tributario para personas y empresas.</p>
+        </article>
+        <article class="service">
+          <img src="https://via.placeholder.com/400x250?text=Sueldos" alt="Liquidación de sueldos" loading="lazy">
+          <h3>Sueldos</h3>
+          <p>Administración de nómina y asesoramiento laboral actualizado.</p>
+        </article>
+        <article class="service">
+          <img src="https://via.placeholder.com/400x250?text=Societario" alt="Servicios societarios" loading="lazy">
+          <h3>Societario</h3>
+          <p>Constitución, reformas y regularización de sociedades comerciales.</p>
+        </article>
+      </div>
+    </section>
+    <section id="nosotros" class="section about">
+      <h2>Nosotros</h2>
+      <p>Somos un equipo de profesionales matriculados con más de 15 años de experiencia en el asesoramiento contable y tributario. Acompañamos a pymes, emprendedores y particulares en todo el país.</p>
+    </section>
+    <section id="contacto" class="section contact">
+      <h2>Contacto</h2>
+      <form class="contact-form" action="#" method="post">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <div class="contact-info">
+        <p><strong>Tel:</strong> <a href="tel:+541100000000">+54 11 0000 0000</a></p>
+        <p><strong>Mail:</strong> <a href="mailto:info@estudiopatagonico.com">info@estudiopatagonico.com</a></p>
+        <p><strong>Dirección:</strong> Av. Libertador 1234, CABA</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2024 Estudio Contable Patagónico. Todos los derechos reservados.</p>
+  </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AccountingService",
+    "@id": "https://example.com#estudio",
+    "name": "Estudio Contable Patagónico",
+    "image": "https://via.placeholder.com/600x400.png?text=Estudio+Contable",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Libertador 1234",
+      "addressLocality": "Ciudad Autónoma de Buenos Aires",
+      "addressRegion": "Buenos Aires",
+      "postalCode": "1000",
+      "addressCountry": "AR"
+    },
+    "url": "https://example.com",
+    "telephone": "+54 11 0000 0000",
+    "priceRange": "$$"
+  }
+  </script>
+  <script src="main.js" defer></script>
+</body>
+</html>
